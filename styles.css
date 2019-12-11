@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: salmon;
+}
+
+.empty {
+    height: 160px;
+    width: 160px;
+    display: inline-block;
+    margin: 10px;
+    background-color: white;
+}
+
+.fill {
+    height: 150px;
+    width: 150px;
+    background-image: url('https://source.unsplash.com/random/150x150');
+    position: relative;
+    /* top: 0;
+    left: 0; */
+    margin: 5px;
+}
+
+.hold {
+    background-color: grey;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
